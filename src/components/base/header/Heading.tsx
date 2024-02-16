@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 type HeadingProps = {
   headingLevel: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
   children: ReactNode;
-  className?: '';
+  className?: string;
 };
 
 const Heading: React.FC<HeadingProps> = ({ headingLevel, children, className }) => {
